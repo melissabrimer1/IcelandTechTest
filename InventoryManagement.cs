@@ -11,7 +11,7 @@ namespace IcelandTechTest
     {
         
         public static string dataFile = @"..\..\..\INPUT_DATA.csv";
-        static void Main(string[] args)
+        static void Main()
         {
             using (TextFieldParser parser = new TextFieldParser(dataFile))
             {
